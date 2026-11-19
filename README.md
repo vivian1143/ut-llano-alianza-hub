@@ -65,7 +65,7 @@ Lo que hicimos fue automatizar tres procesos con Camunda 7, con un portal para l
 
 # Arquitectura
 
-![Diagrama de arquitectura](docs/diagramaArquitectura.jpg)
+![Diagrama de arquitectura](docs/diagramaArquitectura.jpeg)
 
 Todo se comunica por API REST, ninguna parte toca la base de datos de otra.
 Lo que hace cada parte está en docs/arquitectura.md y las tablas de la base de datos en docs/modeloDatos.md
