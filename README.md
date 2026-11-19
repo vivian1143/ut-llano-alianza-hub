@@ -63,7 +63,7 @@ Lo que hicimos fue automatizar tres procesos con Camunda 7, con un portal para l
 - **Servicio de registros**: base de datos del negocio. Puerto 8082. https://github.com/vivian1143/ut-llano-alianza-registros
 - **Portal de la ARL**: para el usuario externo. Puerto 8083. https://github.com/vivian1143/ut-llano-alianza-portal-arl
 
-# Arquitectura
+# Arquitectura (Responsable: Daniel Espinosa)
 
 ![Diagrama de arquitectura](docs/diagramaArquitectura.jpeg)
 
