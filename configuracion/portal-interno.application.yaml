@@ -1,0 +1,9 @@
+# Ejemplo de configuración del portal interno (ut-llano-alianza-portal-interno/src/main/resources/application.yaml)
+server:
+  port: ${PUERTO:8081}
+
+camunda:
+  rest-url: ${CAMUNDA_URL:http://localhost:8080/engine-rest}
+
+registros:
+  url: ${REGISTROS_URL:http://localhost:8082/api}

@@ -1,0 +1,17 @@
+# Ejemplo de configuración del servicio de registros (ut-llano-alianza-registros/src/main/resources/application.yaml)
+# Cada valor ${VARIABLE:valor} se puede cambiar con una variable de entorno sin tocar el archivo.
+server:
+  port: ${PUERTO:8082}
+
+spring:
+  datasource:
+    url: ${REGISTROS_DB_URL:jdbc:h2:file:./registros-db/registros}
+    username: sa
+    password: sa
+  sql:
+    init:
+      mode: always
+  h2:
+    console:
+      enabled: true
+      path: /h2-console

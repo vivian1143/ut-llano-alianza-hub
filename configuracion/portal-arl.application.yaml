@@ -1,0 +1,12 @@
+# Ejemplo de configuración del portal de la ARL (ut-llano-alianza-portal-arl/src/main/resources/application.yaml)
+server:
+  port: ${PUERTO:8083}
+  servlet:
+    session:
+      timeout: 30m
+
+registros:
+  url: ${REGISTROS_URL:http://localhost:8082/api}
+
+camunda:
+  rest-url: ${CAMUNDA_URL:http://localhost:8080/engine-rest}
